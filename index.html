@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Постановление семейного совета</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<audio id="music" preload="auto">
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<section class="screen active" id="loading">
+<div class="card">
+<div class="seal">◆</div>
+<h1>СЕМЕЙНЫЙ СОВЕТ</h1>
+<div id="status">Созываем семейный совет…</div>
+<div class="bar"><div id="fill"></div></div>
+<button id="musicBtn">🔊 Включить атмосферу</button>
+<button id="start" class="hide">Открыть постановление</button>
+</div>
+</section>
+
+<section class="screen" id="story">
+<div class="paper">
+<div id="content"></div>
+<button id="next">Далее →</button>
+</div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
